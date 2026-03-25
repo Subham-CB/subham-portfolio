@@ -15,8 +15,9 @@ const App = () => {
             <div>
                 <NavBar />
                 <Hero />
-                <ShowcaseSection />
+                {/*<ShowcaseSection />*/}
                 {/*<LogoSection/>*/}
+                <div className="mt-10 md:mt-20 lg:mt-20"></div>
                 <FeatureCards/>
                 <ExperienceSection />
                 <TechStack/>
