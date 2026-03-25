@@ -33,8 +33,16 @@ const NavBar = () => {
                                 </a>
                             </li>
                         ))}
+
+                        <a href="/CV/SubhamDey_CV.pdf" download className="group">
+                            <div className="inner">
+                                <span>Download CV</span>
+                                <span className="underline"/>
+                            </div>
+                        </a>
                     </ul>
                 </nav>
+
 
                 <a href="#contact" className="contact-btn group">
                     <div className="inner">
