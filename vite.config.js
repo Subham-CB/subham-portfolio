@@ -7,5 +7,17 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/subham-portfolio",
+  base: process.env.NODE_ENV === 'production' ? '/subham-portfolio/' : '/',
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-three': ['three'],
+          'vendor-react-three': ['@react-three/fiber', '@react-three/drei', '@react-three/postprocessing'],
+          'vendor-gsap': ['gsap', '@gsap/react'],
+        },
+      },
+    },
+  },
 })
