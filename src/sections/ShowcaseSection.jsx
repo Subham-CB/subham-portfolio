@@ -55,14 +55,14 @@ const ShowcaseSection = () => {
 
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Library management"/>
+                                <img src={`${import.meta.env.BASE_URL}images/project2.png`} alt="Library management"/>
                             </div>
                             <h2>Library Management platform</h2>
                         </div>
 
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="Library management"/>
+                                <img src={`${import.meta.env.BASE_URL}images/project3.png`} alt="Library management"/>
                             </div>
                             <h2>Library Management platform</h2>
                         </div>
