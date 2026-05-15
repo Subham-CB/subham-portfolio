@@ -123,6 +123,16 @@ const techStackIcons = [
 
 const expCards = [
     {
+        logoPath: `${baseurl}images/logo3.svg`,
+        title: "Senior Full Stack Developer",
+        date: "February 2026 - Current",
+        responsibilities: [
+            "Working on a scalable RFID-based inventory and asset management system using Spring Boot PostgreSQL to support real-time inventory and asset tracking.",
+            "Developing secure REST APIs with RabbitMQ, JWT, and Spring Security for reliable event-driven processing and access control.",
+            "Building responsive frontend features using Angular and NgRx with reusable components and state management.",
+        ],
+    },
+    {
         logoPath: `${baseurl}images/logo1.png`,
         title: "Senior Software Engineer",
         date: "June 2022 - February 2026",
